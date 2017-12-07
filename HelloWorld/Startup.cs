@@ -27,8 +27,8 @@ namespace HelloWorld
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
-                await context.Response.WriteAsync("<p>by:\n Paulo Almeida, Ricardo Marinheiro, Nuno Oliveira, Gabriel Bolea</p>");
+                await context.Response.WriteAsync("Hello World! by: Paulo Almeida, Ricardo Marinheiro, Nuno Oliveira, Gabriel Bolea");
+          
             });
         }
     }
